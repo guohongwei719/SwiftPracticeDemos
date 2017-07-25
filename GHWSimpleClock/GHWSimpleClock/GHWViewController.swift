@@ -40,8 +40,12 @@ class GHWViewController: UIViewController {
         self.buttonRight.setTitle("暂停", for: .normal)
         self.buttonRight.setTitle("继续", for: .selected)
         
-        [self.buttonLeft, self.buttonRight].forEach { (one) in
-            one.addTarget(self, action: #selector(buttonTap(sender:)), for: .touchUpInside)
+//        [self.buttonLeft, self.buttonRight].forEach { (one) in
+//            one.addTarget(self, action: #selector(buttonTap(sender:)), for: .touchUpInside)
+//        }
+        
+        [self.buttonLeft, self.buttonRight].forEach {
+            ($0.addTarget(self, action: #selector(buttonTap(sender:)), for: .touchUpInside))
         }
         
         self.view.addSubview(self.labelTop)
