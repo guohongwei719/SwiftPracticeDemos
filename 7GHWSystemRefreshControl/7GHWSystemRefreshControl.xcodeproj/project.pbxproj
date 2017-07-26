@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED781E4A1F288CD2005C9C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781E491F288CD2005C9C1B /* AppDelegate.swift */; };
+		ED781E511F288CD2005C9C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED781E501F288CD2005C9C1B /* Assets.xcassets */; };
+		ED781E541F288CD2005C9C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED781E521F288CD2005C9C1B /* LaunchScreen.storyboard */; };
+		ED781E5C1F288CF9005C9C1B /* GHWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781E5B1F288CF9005C9C1B /* GHWMainViewController.swift */; };
+		ED781E5E1F288D0E005C9C1B /* GHWConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781E5D1F288D0E005C9C1B /* GHWConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED781E461F288CD2005C9C1B /* 7GHWSystemRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7GHWSystemRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED781E491F288CD2005C9C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED781E501F288CD2005C9C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED781E531F288CD2005C9C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED781E551F288CD2005C9C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED781E5B1F288CF9005C9C1B /* GHWMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHWMainViewController.swift; sourceTree = "<group>"; };
+		ED781E5D1F288D0E005C9C1B /* GHWConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHWConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED781E431F288CD2005C9C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED781E3D1F288CD2005C9C1B = {
+			isa = PBXGroup;
+			children = (
+				ED781E481F288CD2005C9C1B /* 7GHWSystemRefreshControl */,
+				ED781E471F288CD2005C9C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED781E471F288CD2005C9C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED781E461F288CD2005C9C1B /* 7GHWSystemRefreshControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED781E481F288CD2005C9C1B /* 7GHWSystemRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				ED781E491F288CD2005C9C1B /* AppDelegate.swift */,
+				ED781E501F288CD2005C9C1B /* Assets.xcassets */,
+				ED781E521F288CD2005C9C1B /* LaunchScreen.storyboard */,
+				ED781E551F288CD2005C9C1B /* Info.plist */,
+				ED781E5B1F288CF9005C9C1B /* GHWMainViewController.swift */,
+				ED781E5D1F288D0E005C9C1B /* GHWConfig.swift */,
+			);
+			path = 7GHWSystemRefreshControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED781E451F288CD2005C9C1B /* 7GHWSystemRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED781E581F288CD2005C9C1B /* Build configuration list for PBXNativeTarget "7GHWSystemRefreshControl" */;
+			buildPhases = (
+				ED781E421F288CD2005C9C1B /* Sources */,
+				ED781E431F288CD2005C9C1B /* Frameworks */,
+				ED781E441F288CD2005C9C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 7GHWSystemRefreshControl;
+			productName = 7GHWSystemRefreshControl;
+			productReference = ED781E461F288CD2005C9C1B /* 7GHWSystemRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED781E3E1F288CD2005C9C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭宏伟";
+				TargetAttributes = {
+					ED781E451F288CD2005C9C1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 45KX2E2Q3S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED781E411F288CD2005C9C1B /* Build configuration list for PBXProject "7GHWSystemRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED781E3D1F288CD2005C9C1B;
+			productRefGroup = ED781E471F288CD2005C9C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED781E451F288CD2005C9C1B /* 7GHWSystemRefreshControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED781E441F288CD2005C9C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED781E541F288CD2005C9C1B /* LaunchScreen.storyboard in Resources */,
+				ED781E511F288CD2005C9C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED781E421F288CD2005C9C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED781E5E1F288D0E005C9C1B /* GHWConfig.swift in Sources */,
+				ED781E5C1F288CF9005C9C1B /* GHWMainViewController.swift in Sources */,
+				ED781E4A1F288CD2005C9C1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED781E521F288CD2005C9C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED781E531F288CD2005C9C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED781E561F288CD2005C9C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED781E571F288CD2005C9C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED781E591F288CD2005C9C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45KX2E2Q3S;
+				INFOPLIST_FILE = 7GHWSystemRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eLab.guohongwei.-GHWSystemRefreshControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED781E5A1F288CD2005C9C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45KX2E2Q3S;
+				INFOPLIST_FILE = 7GHWSystemRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eLab.guohongwei.-GHWSystemRefreshControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED781E411F288CD2005C9C1B /* Build configuration list for PBXProject "7GHWSystemRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED781E561F288CD2005C9C1B /* Debug */,
+				ED781E571F288CD2005C9C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED781E581F288CD2005C9C1B /* Build configuration list for PBXNativeTarget "7GHWSystemRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED781E591F288CD2005C9C1B /* Debug */,
+				ED781E5A1F288CD2005C9C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED781E3E1F288CD2005C9C1B /* Project object */;
+}
