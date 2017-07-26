@@ -16,6 +16,11 @@ class GHWMainViewController: UIViewController {
     let newData = ["1111", "2222", "3333", "4444"]
     var dataArray = ["11", "22", "33", "44"]
     let identifier = "identifier"
+    func addData() {
+        dataArray.append(contentsOf: newData)
+        tableView.reloadData()
+        refreshControl.endRefreshing()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,11 +41,7 @@ class GHWMainViewController: UIViewController {
         view.addSubview(tableView)
     }
     
-    func addData() {
-        dataArray.append(contentsOf: newData)
-        tableView.reloadData()
-        refreshControl.endRefreshing()
-    }
+
 }
 
 extension GHWMainViewController: UITableViewDelegate, UITableViewDataSource {
