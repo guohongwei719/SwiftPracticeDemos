@@ -6,6 +6,12 @@
 //  Copyright © 2017年 郭宏伟. All rights reserved.
 //
 
+/*
+ 
+ // 要注意的地方，1. imageArray.enumerated() 2. CGFloat(index)
+
+ */
+
 import UIKit
 
 class GHWMainViewController: UIViewController, UIScrollViewDelegate {
@@ -23,7 +29,6 @@ class GHWMainViewController: UIViewController, UIScrollViewDelegate {
         mainScrollView.contentSize = CGSize(width: (CGFloat)(imageArray.count) * kScreenWidth, height: kScreenHeight)
         mainScrollView.isPagingEnabled = true
         mainScrollView.delegate = self
-        // 要注意的地方，1. imageArray.enumerated() 2. CGFloat(index)
         for (index, value) in imageArray.enumerated() {
             let contentImageView = UIImageView(frame: CGRect(x: CGFloat(index) * kScreenWidth, y: 0, width: kScreenWidth, height: kScreenHeight))
             contentImageView.image = UIImage(named: value)

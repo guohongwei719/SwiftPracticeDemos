@@ -6,6 +6,11 @@
 //  Copyright © 2017年 郭宏伟. All rights reserved.
 //
 
+/*
+ let cell = tableViewTop.dequeueReusableCell(withIdentifier: identifier) ?? UITableViewCell(style: .subtitle, reuseIdentifier: identifier)
+
+ */
+
 import UIKit
 
 class GHWMainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -51,10 +56,11 @@ class GHWMainViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let tableViewHeight = kScreenHeight * 2/3
-        return tableViewHeight/((CGFloat)(dataArray.count))
+        return tableViewHeight/CGFloat(dataArray.count)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Attention
         let cell = tableViewTop.dequeueReusableCell(withIdentifier: identifier) ?? UITableViewCell(style: .subtitle, reuseIdentifier: identifier)
         cell.textLabel?.text = dataArray[indexPath.row]
         cell.textLabel?.textColor = .white

@@ -5,7 +5,17 @@
 //  Created by 郭宏伟 on 2017/7/25.
 //  Copyright © 2017年 郭宏伟. All rights reserved.
 //
+/*
+ 要注意的地方
+ struct VideoModel {
+ let image : String
+ let title : String
+ let source : String
+ }
+ // 不加问号的话会报错：class has no initializers, 这里凡是没有初始化的都要加上问号
 
+ let cell = tableView.dequeueReusableCell(withIdentifier: identifierStr, for: indexPath) as! GHWVideoCell
+ */
 import UIKit
 import AVKit
 import AVFoundation
