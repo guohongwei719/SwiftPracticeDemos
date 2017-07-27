@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED781E8E1F28AC83005C9C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781E8D1F28AC83005C9C1B /* AppDelegate.swift */; };
+		ED781E951F28AC83005C9C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED781E941F28AC83005C9C1B /* Assets.xcassets */; };
+		ED781E981F28AC83005C9C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED781E961F28AC83005C9C1B /* LaunchScreen.storyboard */; };
+		ED781EA01F28ACA9005C9C1B /* GHWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781E9F1F28ACA9005C9C1B /* GHWMainViewController.swift */; };
+		ED781EA21F28ACBA005C9C1B /* GHWConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED781EA11F28ACBA005C9C1B /* GHWConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED781E8A1F28AC83005C9C1B /* 9GHWImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 9GHWImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED781E8D1F28AC83005C9C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED781E941F28AC83005C9C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED781E971F28AC83005C9C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED781E991F28AC83005C9C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED781E9F1F28ACA9005C9C1B /* GHWMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHWMainViewController.swift; sourceTree = "<group>"; };
+		ED781EA11F28ACBA005C9C1B /* GHWConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHWConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED781E871F28AC83005C9C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED781E811F28AC83005C9C1B = {
+			isa = PBXGroup;
+			children = (
+				ED781E8C1F28AC83005C9C1B /* 9GHWImageScroller */,
+				ED781E8B1F28AC83005C9C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED781E8B1F28AC83005C9C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED781E8A1F28AC83005C9C1B /* 9GHWImageScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED781E8C1F28AC83005C9C1B /* 9GHWImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				ED781E8D1F28AC83005C9C1B /* AppDelegate.swift */,
+				ED781E941F28AC83005C9C1B /* Assets.xcassets */,
+				ED781E961F28AC83005C9C1B /* LaunchScreen.storyboard */,
+				ED781E991F28AC83005C9C1B /* Info.plist */,
+				ED781E9F1F28ACA9005C9C1B /* GHWMainViewController.swift */,
+				ED781EA11F28ACBA005C9C1B /* GHWConfig.swift */,
+			);
+			path = 9GHWImageScroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED781E891F28AC83005C9C1B /* 9GHWImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED781E9C1F28AC83005C9C1B /* Build configuration list for PBXNativeTarget "9GHWImageScroller" */;
+			buildPhases = (
+				ED781E861F28AC83005C9C1B /* Sources */,
+				ED781E871F28AC83005C9C1B /* Frameworks */,
+				ED781E881F28AC83005C9C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 9GHWImageScroller;
+			productName = 9GHWImageScroller;
+			productReference = ED781E8A1F28AC83005C9C1B /* 9GHWImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED781E821F28AC83005C9C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭宏伟";
+				TargetAttributes = {
+					ED781E891F28AC83005C9C1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 45NCV9F7PJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED781E851F28AC83005C9C1B /* Build configuration list for PBXProject "9GHWImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED781E811F28AC83005C9C1B;
+			productRefGroup = ED781E8B1F28AC83005C9C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED781E891F28AC83005C9C1B /* 9GHWImageScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED781E881F28AC83005C9C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED781E981F28AC83005C9C1B /* LaunchScreen.storyboard in Resources */,
+				ED781E951F28AC83005C9C1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED781E861F28AC83005C9C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED781EA21F28ACBA005C9C1B /* GHWConfig.swift in Sources */,
+				ED781EA01F28ACA9005C9C1B /* GHWMainViewController.swift in Sources */,
+				ED781E8E1F28AC83005C9C1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED781E961F28AC83005C9C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED781E971F28AC83005C9C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED781E9A1F28AC83005C9C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED781E9B1F28AC83005C9C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED781E9D1F28AC83005C9C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45NCV9F7PJ;
+				INFOPLIST_FILE = 9GHWImageScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eLab.guohongwei.-GHWImageScroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED781E9E1F28AC83005C9C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45NCV9F7PJ;
+				INFOPLIST_FILE = 9GHWImageScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eLab.guohongwei.-GHWImageScroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED781E851F28AC83005C9C1B /* Build configuration list for PBXProject "9GHWImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED781E9A1F28AC83005C9C1B /* Debug */,
+				ED781E9B1F28AC83005C9C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED781E9C1F28AC83005C9C1B /* Build configuration list for PBXNativeTarget "9GHWImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED781E9D1F28AC83005C9C1B /* Debug */,
+				ED781E9E1F28AC83005C9C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED781E821F28AC83005C9C1B /* Project object */;
+}
